@@ -4,11 +4,13 @@
   <groupId>com.example</groupId>
   <artifactId>java-challenges</artifactId>
   <version>1.0.0</version>
+  <packaging>jar</packaging>
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
     <maven.compiler.target>17</maven.compiler.target>
   </properties>
   <build>
+    <defaultGoal>package</defaultGoal>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
