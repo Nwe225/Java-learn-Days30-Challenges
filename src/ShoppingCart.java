@@ -1,7 +1,7 @@
-﻿import java.util.Scanner;
+import java.util.Scanner;
 
-public class ShoppingCart{
-    public static void main(String [] args) {
+public class ShoppingCart {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String item;
@@ -11,7 +11,7 @@ public class ShoppingCart{
         double total;
 
         System.out.print("What item would you like to buy? ");
-        item = scanner.nextLine().trim();
+        item = scanner.nextLine();
 
         System.out.print("What is the price for each? ");
         price = scanner.nextDouble();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="/Main (snapshot).java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="/Main (snapshot).java" />
+              <option name="originalContent" value="public class Main {&#10;    public static void main(String[] args) {&#10;        // Delegate to the existing ShoppingCart entry point&#10;    &#10;    }&#10;}" />
+              <option name="updatedContent" value="public class Main {&#10;    public static void main(String[] args) {&#10;        // Delegate to the existing ShoppingCart entry point&#10;        // Call the ShoppingCart main so the project's Main acts as the canonical entry&#10;        ShoppingCart.main(args);&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

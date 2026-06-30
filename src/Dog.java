@@ -1,7 +1,7 @@
 public class Dog{
 
     public void bark(){
-        int statement++;
+        System.out.println("Woof");
     }
 
     public void mydogPlay(){
