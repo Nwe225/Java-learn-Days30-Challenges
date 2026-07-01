@@ -16,10 +16,10 @@ import java.util.Scanner;
          System.out.print("Enter the interest rate(in %): ");
          rate=scanner.nextDouble();
 
-         System.out.print("Enter the # of times interest is compounded per year: ");
+         System.out.print("Enter the number of times interest is compounded per year: ");
          timesCompounded=scanner.nextInt();
 
-         System.out.print("Enter the # of years: ");
+         System.out.print("Enter the number of years: ");
          years=scanner.nextInt();
 
          amount=principal*Math.pow(1+rate/timesCompounded,timesCompounded*years);
