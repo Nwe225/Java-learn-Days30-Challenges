@@ -1,11 +1,12 @@
 import java.util.Scanner;
-public class Main{
-    public static void main{
+public class BlockCode{
+    public static void main(String[] args){
+        Scanner scanner=new Scanner(System.in);
         int age=25;
         if(age>=18){
             System.out.println("You are an adult.");
         }
-        else{
+        else if(age<=18){
             System.out.println("You are a minor.");
         }
         else if(age<0){
@@ -18,7 +19,7 @@ public class Main{
             System.out.println("You are a senior citizen.");
         }
         else {
-            System.out.println("You are a chlild!");
+            System.out.println("You are a child!");
         }
         scanner.close();
     }
