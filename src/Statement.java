@@ -16,7 +16,7 @@ public class Statement{
         System.out.print("Are you student(true/false): ");
         isStudent=scanner.nextBoolean();
 
-        if(name.isEmpty){
+        if(name.isEmpty()){
             System.out.println("You didnot enter your name! ");
         }
         else{

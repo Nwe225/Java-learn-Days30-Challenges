@@ -1,6 +1,6 @@
 public class Printf{
-    public static void main(String[] args){(
-        String name="Win";
+    public static void main(String[] args){
+        String name = "Win";
         char firstLetter='W';
         int age=30;
         double height=60.5;
