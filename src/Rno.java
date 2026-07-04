@@ -10,9 +10,10 @@ public class Rno {
         boolean isHeads;
 
 
-        int number1 =random.nextInt(1,6);
-        int number2 =random.nextInt(2,7);
-        int nubmer3=random.nextInt(0,0);
+        number1 =random.nextInt(1,6);
+        number2 =random.nextInt(2,7);
+        number3=random.nextInt(3,6);
+        isHeads=random.nextBoolean();
 
         if(isHeads){
             System.out.println("Heads");
@@ -20,6 +21,8 @@ public class Rno {
         else {
             System.out.println("Tails");
         }
-        System.out.println("number1:"+number1);
+        System.out.println(number1);
+        System.out.println(number2);
+        System.out.println(number3);
     }
 }
