@@ -18,7 +18,7 @@ echo Maven not available or build failed. Falling back to javac/java.
 if not exist out (mkdir out)
 javac -d out src\*.java
 if %ERRORLEVEL%==0 (
-  java -cp out Main
+  java -cp out StringMethod
 ) else (
   echo Build failed.
   exit /b 1

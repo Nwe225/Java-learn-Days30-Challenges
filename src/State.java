@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NestState {
+public class State {
     public static void Main(String[] args){
         Scanner scanner=new Scanner(System.in);
         boolean isStudent=true;
