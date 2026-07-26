@@ -2,6 +2,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        WeightConverter.main(args);
+        temperatureConcerter.main(args);
     }
 }
