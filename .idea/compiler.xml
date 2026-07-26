@@ -9,8 +9,5 @@
         <module name="java-challenges" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-challenges" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>
